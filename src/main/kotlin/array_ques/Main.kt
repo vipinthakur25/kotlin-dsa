@@ -7,7 +7,11 @@ fun main(args: Array<String>) {
     println(result)*/
 
     //is valid anagram
+    //val result = isValidAnagramOptimized("carrace", "racecar")
+    //println(result)
 
-    val result = isValidAnagramOptimized("carrace", "racecar")
-    println(result)
+    //two sum
+    val nums = intArrayOf(5,5)
+    val result = twoSumOptimize(nums = nums, target = 10)
+    println("result ${result.toList()} ")
 }
